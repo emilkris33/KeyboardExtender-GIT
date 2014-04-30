@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dk.escteam.keyboardextender.client"
+    android:versionCode="20"
+    android:versionName="2.0.1" >
+
+    <uses-sdk
+        android:maxSdkVersion="19"
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+    
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" >
+    </supports-screens>
+    
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.BLUETOOTH" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name="dk.escteam.keyboardextender.client.app.KeyboardExtender"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sherlock"
+        android:allowBackup="true" >
+        <activity
+            android:name="dk.escteam.keyboardextender.client.activity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" >
+                </action>
+
+                <category android:name="android.intent.category.LAUNCHER" >
+                </category>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="dk.escteam.keyboardextender.client.dragndrop.DragNDropListActivity"
+            android:label="@string/text_dragndrop"
+            android:parentActivityName="dk.escteam.keyboardextender.client.activity.SettingsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dk.escteam.keyboardextender.client.activity.SettingsActivity" />
+            <intent-filter>
+                <action android:name="dk.ces451.keyboardextender.client.dragndrop.DragNDropListActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="dk.escteam.keyboardextender.client.activity.SettingsActivity"
+            android:label="@string/text_settings"
+            android:parentActivityName="dk.escteam.keyboardextender.client.activity.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dk.escteam.keyboardextender.client.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name="dk.escteam.keyboardextender.client.activity.HelpActivity"
+            android:label="@string/text_help"
+            android:parentActivityName="dk.escteam.keyboardextender.client.activity.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dk.escteam.keyboardextender.client.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name="dk.escteam.keyboardextender.client.activity.connection.ConnectionListActivity"
+            android:label="@string/text_connections"
+            android:parentActivityName="dk.escteam.keyboardextender.client.activity.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dk.escteam.keyboardextender.client.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name="dk.escteam.keyboardextender.client.activity.connection.ConnectionWifiEditActivity"
+            android:label="@string/text_wifi" >
+        </activity>
+        <activity
+            android:name="dk.escteam.keyboardextender.client.activity.connection.ConnectionBluetoothEditActivity"
+            android:label="@string/text_bluetooth" >
+        </activity>
+        <activity
+            android:name="dk.escteam.keyboardextender.client.activity.connection.BluetoothDevicesActivity"
+            android:label="@string/text_bluetooth_devices" >
+        </activity>
+        <activity
+            android:name="dk.escteam.keyboardextender.client.activity.LayoutEditActivity"
+            android:label="@string/title_activity_layout_edit"
+            android:parentActivityName="dk.escteam.keyboardextender.client.activity.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dk.escteam.keyboardextender.client.activity.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_resize"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="@string/action_resize"/>
+    <item
+        android:id="@+id/action_save"
+        android:orderInCategory="2"
+        android:showAsAction="never"
+        android:title="@string/action_save"/>
+    <item
+        android:id="@+id/action_load"
+        android:orderInCategory="3"
+        android:showAsAction="never"
+        android:title="@string/action_load"/>
+    <item
+        android:id="@+id/action_delete_file"
+        android:orderInCategory="4"
+        android:showAsAction="never"
+        android:title="@string/action_delete"/>
+
+</menu>

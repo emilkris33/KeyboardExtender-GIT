@@ -1,0 +1,116 @@
+<resources>
+
+    <string name="lang_prefix">"da"</string>
+    
+    <string name="title_numpad">"Numpad"</string>
+    <string name="title_mathwithnum">"MatNum"</string>
+    <string name="title_math">"Matematik"</string>
+    <string name="title_chem">"Kemisk"</string>
+
+    <string name="lang_default">"Standard"</string>
+    <string name="lang_da">"Dansk"</string>
+    <string name="lang_en">"Engelsk"</string>
+
+    <string name="text_keyboards">"Tastaturer"</string>
+    <string name="text_select_keyboards">"Aktive layouts"</string>
+    <string name="text_select_keyboards_hint">"Vælg hvilke af ​​de tilgængelige layouts er aktive"</string>
+    <string name="text_select_lang">"App sprog"</string>
+    <string name="app_name">"Keyboard Extender"</string>
+    <string name="text_keyboard">"Tastatur"</string>
+    <string name="text_settings">"Indstillinger"</string>
+    <string name="text_dragndrop">"Ændre rækkefølge"</string>
+    <string name="text_dragndrop_hint">"Vælg rækkefølgen afdine aktive layouts"</string>
+    <string name="text_help">"Hjælp"</string>
+    <string name="text_help_description">"Beskrivelse :"</string>
+    <string name="text_help_usage">"Brug :"</string>
+    <string name="text_help_install">"Installer:"</string>
+    <string name="text_help_contact">"Kontakt:"</string>
+    <string name="text_help_description_content">"Brug din telefon som et udvidet tastatur til din computer via Wi-Fi eller Bluetooth !\n\nHovedfunktioner :\n - Vælg mellem flere tastaturlayout til dine individuelle behov\n - Swipe til venstre og højre for let at skifte mellem forskellige layouts \n - Brug dit standard Android tastatur til at skrive på din computer\n - Beskyt din computer mod uønskede forbindelser med en adgangskode\n - Specielle tastaturlayout når du laver matematik eller naturvidenskab.\n"</string>
+    <string name="text_help_install_content">"For at bruge appen er du først nødt til at hente en server til din pc på :\nwww.bit.ly/keyboardextender\n"</string>
+    <string name="text_help_usage_content">"Tryk på en knap i appen for at indtaste de(t) tegn den repræsenterer uden at det er nødvendigt at bruge en genvej på tastaturet.\n\nHold nede i omkring et sekund for at aktivere sekundære funktioner på nogle knapper som f.eks sin, cos og tan.\n\nSwipe venstre eller højre for at bruge andre tastaturlayouts.\n\nI menuen indstillinger, kan du vælge, hvilke tastaturlayouts der er tilgængelige.\n"</string>
+    <string name="text_help_contact_content">"bit.ly/keyboardextender\n"</string>
+    <string name="text_connections">"Forbindelser"</string>
+    <string name="text_vibration">"Vibration"</string>
+    <string name="text_miscellaneous">"Diverse"</string>
+    <string name="text_fullscreen">"Fuldskærm"</string>
+    <string name="text_keep_screen_on">"Hold skærmen tændt"</string>
+    <string name="text_reset_preferences">"Nulstil indstillinger"</string>
+    <string name="text_connection_established">"Forbindelse oprettet"</string>
+    <string name="text_connection_closed">"Forbindelse afbrudt"</string>
+    <string name="text_connection_refused">"Forbindelse nægtet"</string>
+    <string name="text_illegal_connection_parameter">"Ugyldigt forbindelses parameter"</string>
+    <string name="text_authentificated">"Autentificeret"</string>
+    <string name="text_not_authentificated">"Forkert adgangskode"</string>
+    <string name="text_bluetooth_not_available_version">"Bluetooth er ikke tilgængelig på din telefon (kun Android 2.0+)"</string>
+    <string name="text_bluetooth_not_available">"Bluetooth er ikke tilgængelig"</string>
+    <string name="text_bluetooth_not_enabled">"Bluetooth er ikke aktiveret"</string>
+    <string name="text_bluetooth_remote_device_not_found">"Ekstern Bluetooth-enhed ikke fundet"</string>
+    <string name="text_bluetooth_can_not_connect">"Kan ikke forbinde til ekstern Bluetooth-enhed"</string>
+    <string name="text_first_run_dialog">"For at appen kan kommunikere med din pc, skal du køre serveren på din computer\nDownload den på:\nwww.bit.ly/keyboardextender\nHar du brug for mere hjælp?"</string>
+    <string name="text_first_run_dialog_title">"Tak fordi at du installerede Keyboard Extender"</string>
+    <string name="text_new_version_dialog">"Hent den nyeste version af serveren: \nwww.bit.ly/keyboardextender"</string>
+    <string name="text_new_version_dialog_title">"Keyboard Extender er blevet opdateret"</string>
+    <string name="text_no_connection">"Ingen forbindelser\nTryk \"Plus-knappen\" for at tilføje en"</string>
+    <string name="text_no_connection_selected">"Ingen forbindelse valgt\nKlik på \"Forbindelser-ikonet\""</string>
+    <string name="text_bluetooth_discovery_started">"Bluetooth søgning startet"</string>
+    <string name="text_bluetooth_discovery_finished">"Bluetooth søgning færdig"</string>
+    <string name="text_bluetooth_device_not_paired">"Bluetooth-enhed ikke parret\nDu skal parre den manuelt"</string>
+    <string name="text_yes">"Ja"</string>
+    <string name="text_no">"Nej"</string>
+    <string name="text_ok">"OK"</string>
+    <string name="text_cancel">"Annuller"</string>
+    <string name="text_new">"Ny"</string>
+    <string name="text_connection_type">"Forbindelsestype"</string>
+    
+    <string name="text_use">"Vælg"</string>
+    <string name="text_edit">"Rediger"</string>
+    <string name="text_remove">"Fjern"</string>
+
+    <string name="text_wifi">"Wi-Fi"</string>
+    <string name="text_bluetooth">"Bluetooth"</string>
+    <string name="text_bluetooth_devices">"Bluetooth-enheder"</string>
+    <string name="text_name">"Navn : "</string>
+    <string name="text_password">"Password : "</string>
+    <string name="text_host">"Host : "</string>
+    <string name="text_port">"Port : "</string>
+    <string name="text_address">"Adresse : "</string>
+    <string name="text_save">"Gem"</string>
+    <string name="text_new_connection">"Ny forbindelse"</string>
+    <string name="text_hint_host">"192.168.xx"</string>
+    <string name="title_activity_layout_edit">"Rediger layout"</string>
+    
+    <string name="text_edit_layout">"Rediger layout"</string>
+    <string name="text_new_layout">"NYT LAYOUT"</string>
+    <string name="action_resize">"Rediger størrelse"</string>
+    <string name="text_resize_row">"Rækker:"</string>
+    <string name="text_resize_row_hint">"Rækker"</string>
+    <string name="text_resize_col">"Kolonner:"</string>
+    <string name="text_resize_col_hint">"Kolonner"</string>
+    
+    <string name="text_edit_button">"Rediger knap"</string>
+    <string name="text_edit_button_text">"Vist tekst:"</string>
+    <string name="text_edit_button_text_hint">""</string>
+    <string name="text_edit_button_output">"Knappens output:"</string>
+    <string name="text_edit_button_output_hint">""</string>
+    
+    <string name="action_load">"Åben"</string>
+    <string name="action_save">"Gem
+"</string>
+    <string name="action_delete">"Slet"</string>
+    
+    <string name="text_edit_layout_name">"Rediger navn"</string>
+    <string name="text_edit_layout_name_text">"Layoutets navn:"</string>
+    <string name="text_edit_layout_name_hint">""</string>
+    
+    <string name="text_save_layout">"Gem layout"</string>
+    <string name="text_save_layout_text">"Gem som:"</string>
+    <string name="text_save_layout_hint">""</string>
+    
+    <string name="text_load_layout">"Åben layout"</string>
+    <string name="text_delete_layout">"Slet layout"</string>
+    <string name="text_delete_layout_sure">"Er du sikker?"</string>
+    <string name="text_delete_layout_sure_text">"Er du sikker på, at du ønsker at slette layout filen:"</string>
+
+    <string name="warning_only_int_title">"Ugyldigt filnavn"</string>
+    <string name="warning_only_int_message">"Filnavnet skal indeholde bogstaver"</string>
+</resources>

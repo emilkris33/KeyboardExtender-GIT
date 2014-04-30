@@ -1,0 +1,41 @@
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory
+		android:title="@string/text_keyboards">
+		<dk.escteam.keyboardextender.client.view.MultiSelectListPreference
+		    android:key="active_screens"
+		    android:title="@string/text_select_keyboards" 
+		    android:summary="@string/text_select_keyboards_hint"
+		    android:entries="@array/array_keyboard_names_localized"
+		    android:entryValues="@array/array_keyboard_names"
+		    android:defaultValue="@array/array_keyboard_names_default"
+		    />
+		<PreferenceScreen
+        android:title="@string/text_dragndrop" 
+        android:summary="@string/text_dragndrop_hint">
+        <intent android:action="dk.ces451.keyboardextender.client.dragndrop.DragNDropListActivity"/>
+    </PreferenceScreen>
+	</PreferenceCategory>
+	<PreferenceCategory
+		android:title="@string/text_miscellaneous">
+		<CheckBoxPreference
+			android:key="feedback_vibration"
+			android:defaultValue="true"
+			android:title="@string/text_vibration" />
+		<CheckBoxPreference
+			android:key="fullscreen"
+			android:defaultValue="false"
+			android:title="@string/text_fullscreen" />
+		<CheckBoxPreference
+			android:key="keep_screen_on"
+			android:defaultValue="true"
+			android:title="@string/text_keep_screen_on" />
+		<ListPreference
+		    android:key="app_language"
+		    android:title="@string/text_select_lang" 
+		    android:entries="@array/array_languages_names"
+		    android:entryValues="@array/array_languages_id"
+		    android:defaultValue="default"
+		    />
+	</PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+     <string-array name="array_keyboard_names_localized">
+        <item>@string/title_numpad</item>
+        <item>@string/title_mathwithnum</item>
+        <item>@string/title_math</item>
+        <item>@string/title_chem</item>
+    </string-array>
+    <string-array name="array_keyboard_names">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="array_keyboard_names_default">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+    <string-array name="array_languages_names">
+        <item>@string/lang_default</item>
+        <item>@string/lang_da</item>
+        <item>@string/lang_en</item>
+    </string-array>
+    <string-array name="array_languages_id">
+        <item>default</item>
+        <item>da</item>
+        <item>en</item>
+    </string-array>
+    
+    <string-array name="connection_action_name">
+        <item>@string/text_use</item>
+        <item>@string/text_edit</item>
+        <item>@string/text_remove</item>
+    </string-array>
+    
+</resources>
